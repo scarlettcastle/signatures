@@ -1,1 +1,196 @@
+.scarsigspcall {
+  width: 400px;
+  height: 180px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  line-height: 100%;
+}
+.scarsigspcard {
+  width: 400px;
+  height: 180px;
+  background: #000;
+  position: relative;
+  overflow: hidden;
+}
+.scarsigspcbg {
+  width: 400px;
+  height: 180px;
+  background-image: url(https://cdnw.nickpic.host/vZh4hD.png);
+  background-size: contain;
+}
+.scarsigspcmoon {
+  width: 200px;
+  height: 200px;
+  background-image: url(https://cdnw.nickpic.host/xIxAMQ.png);
+  background-size: contain;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+      animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  
+    transition: all 1s ease-in-out 3s;
+-webkit-transition: all 1s ease-in-out 3s;
+-moz-transition: all 1s ease-in-out 3s;
+-o-transition: all 1s ease-in-out 3s;
+}
 
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 5px); }
+    to   { transform: translate(0, -0px); } 
+}
+
+.scarsigspctit {
+  width: 250px;
+  height: auto;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 170px;
+  font-family: raleway;
+  font-size: 25px;
+  line-height: 30px;
+  color: #eee;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 20px;
+  text-shadow: 1px 1px #B30013;
+    transition: all 0.8s ease-in-out 2.5s;
+-webkit-transition: all 0.8s ease-in-out 2.5s;
+-moz-transition: all 0.8s ease-in-out 2.5s;
+-o-transition: all 0.8s ease-in-out 2.5s;
+}
+.scarsigspclin1 {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 355px;
+    transition: all 0.8s ease-in-out 2s;
+-webkit-transition: all 0.8s ease-in-out 2s;
+-moz-transition: all 0.8s ease-in-out 2s;
+-o-transition: all 0.8s ease-in-out 2s;
+}
+.scarsigspclin2 {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 355px;
+    transition: all 0.8s ease-in-out 1.5s;
+-webkit-transition: all 0.8s ease-in-out 1.5s;
+-moz-transition: all 0.8s ease-in-out 1.5s;
+-o-transition: all 0.8s ease-in-out 1.5s;
+}
+.scarsigspclin3 {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 355px;
+  transition: all 1s linear 0.7s;
+-webkit-transition: all 1s linear 0.7s;
+-moz-transition: all 1s linear 0.7s;
+-o-transition: all 1s linear 0.7s;
+}
+.sf-alien-o {
+  width: 10px;
+  height: 10px;
+  padding: 8px 5px 2px 5px;
+  background-color: #B30013;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px #fff;
+  border: 1px solid #960010;
+}
+.sf-saturn {
+  width: 10px;
+  height: 10px;
+  padding: 8px 5px 2px 5px;
+  background-color: #B30013;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px #fff;
+  border: 1px solid #960010;
+}
+.sf-ufo-o {
+  width: 10px;
+  height: 10px;
+  padding: 8px 5px 2px 5px;
+  background-color: #B30013;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 1px 1px 5px #fff;
+  border: 1px solid #960010;
+}
+.scarsigspccont {
+  width: 150px;
+  height: 60px;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 180px;
+  font-family: raleway;
+  font-size: 9px;
+  line-height: 10px;
+  text-align: justify;
+  overflow: auto;
+  color: #eee;
+  text-shadow: 1px 1px #B30013;
+  opacity: 0;
+  transition: all 1s linear 0.2s;
+-webkit-transition: all 1s linear 0.2s;
+-moz-transition: all 1s linear 0.2s;
+-o-transition: all 1s linear 0.2s;
+}
+
+.scarsigspcard:hover .scarsigspcmoon {
+ width: 400px;
+  height: 400px;
+  margin-top: -80px;
+  margin-left: -180px;
+      animation: none; 
+  transition: all 1s linear 0.2s;
+-webkit-transition: all 1s linear 0.2s;
+-moz-transition: all 1s linear 0.2s;
+-o-transition: all 1s linear 0.2s;
+}
+.scarsigspcard:hover .scarsigspctit {
+  margin-left: 400px;
+  transition: all 1s linear 0.7s;
+-webkit-transition: all 1s linear 0.7s;
+-moz-transition: all 1s linear 0.7s;
+-o-transition: all 1s linear 0.7s;
+}
+.scarsigspcard:hover .scarsigspclin1 {
+  margin-left: 295px;
+    transition: all 0.8s ease-in-out 1.5s;
+-webkit-transition: all 0.8s ease-in-out 1.5s;
+-moz-transition: all 0.8s ease-in-out 1.5s;
+-o-transition: all 0.8s ease-in-out 1.5s;
+}
+.scarsigspcard:hover .scarsigspclin2 {
+  margin-left: 295px;
+    transition: all 0.8s ease-in-out 2s;
+-webkit-transition: all 0.8s ease-in-out 2s;
+-moz-transition: all 0.8s ease-in-out 2s;
+-o-transition: all 0.8s ease-in-out 2s;
+}
+.scarsigspcard:hover .scarsigspclin3 {
+  margin-left: 295px;
+    transition: all 0.8s ease-in-out 2.5s;
+-webkit-transition: all 0.8s ease-in-out 2.5s;
+-moz-transition: all 0.8s ease-in-out 2.5s;
+-o-transition: all 0.8s ease-in-out 2.5s;
+}
+.scarsigspcard:hover .scarsigspccont {
+  opacity: 1;
+    transition: all 1s ease-in-out 3s;
+-webkit-transition: all 1s ease-in-out 3s;
+-moz-transition: all 1s ease-in-out 3s;
+-o-transition: all 1s ease-in-out 3s;
+}
