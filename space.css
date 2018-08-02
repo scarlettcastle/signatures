@@ -95,6 +95,9 @@
 -moz-transition: all 1s linear 0.7s;
 -o-transition: all 1s linear 0.7s;
 }
+a {
+  text-decoration: none;
+}
 .sf-alien-o {
   width: 10px;
   height: 10px;
