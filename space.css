@@ -90,10 +90,10 @@
   position: absolute;
   margin-top: 140px;
   margin-left: 355px;
-  transition: all 1s linear 0.7s;
--webkit-transition: all 1s linear 0.7s;
--moz-transition: all 1s linear 0.7s;
--o-transition: all 1s linear 0.7s;
+  transition: all 1s ease-in-out 0.7s;
+-webkit-transition: all 1s ease-in-out 0.7s;
+-moz-transition: all 1s ease-in-out 0.7s;
+-o-transition: all 1s ease-in-out 0.7s;
 }
 a {
   text-decoration: none;
@@ -145,10 +145,10 @@ a {
   color: #eee;
   text-shadow: 1px 1px #B30013;
   opacity: 0;
-  transition: all 1s linear 0.2s;
--webkit-transition: all 1s linear 0.2s;
--moz-transition: all 1s linear 0.2s;
--o-transition: all 1s linear 0.2s;
+  transition: all 1s ease-in-out 0.2s;
+-webkit-transition: all 1s ease-in-out 0.2s;
+-moz-transition: all 1s ease-in-out 0.2s;
+-o-transition: all 1s ease-in-out 0.2s;
 }
 
 .scarsigspcard:hover .scarsigspcmoon {
@@ -157,17 +157,17 @@ a {
   margin-top: -80px;
   margin-left: -180px;
       animation: none; 
-  transition: all 1s linear 0.2s;
--webkit-transition: all 1s linear 0.2s;
--moz-transition: all 1s linear 0.2s;
--o-transition: all 1s linear 0.2s;
+  transition: all 1s ease-in-out 0.2s;
+-webkit-transition: all 1s ease-in-out 0.2s;
+-moz-transition: all 1s ease-in-out 0.2s;
+-o-transition: all 1s ease-in-out 0.2s;
 }
 .scarsigspcard:hover .scarsigspctit {
   margin-left: 400px;
-  transition: all 1s linear 0.7s;
--webkit-transition: all 1s linear 0.7s;
--moz-transition: all 1s linear 0.7s;
--o-transition: all 1s linear 0.7s;
+  transition: all 1s ease-in-out 0.7s;
+-webkit-transition: all 1s ease-in-out 0.7s;
+-moz-transition: all 1s ease-in-out 0.7s;
+-o-transition: all 1s ease-in-out 0.7s;
 }
 .scarsigspcard:hover .scarsigspclin1 {
   margin-left: 295px;
