@@ -63,37 +63,37 @@
 -o-transition: all 0.8s ease-in-out 2.5s;
 }
 .scarsigspclin1 {
-  width: 150px;
+  width: 50px;
   height: auto;
   position: absolute;
   margin-top: 20px;
-  margin-left: 355px;
+  margin-left: 395px;
     transition: all 0.8s ease-in-out 2s;
 -webkit-transition: all 0.8s ease-in-out 2s;
 -moz-transition: all 0.8s ease-in-out 2s;
 -o-transition: all 0.8s ease-in-out 2s;
 }
 .scarsigspclin2 {
-  width: 150px;
+  width: 50px;
   height: auto;
   position: absolute;
   margin-top: 80px;
-  margin-left: 355px;
+  margin-left: 395px;
     transition: all 0.8s ease-in-out 1.5s;
 -webkit-transition: all 0.8s ease-in-out 1.5s;
 -moz-transition: all 0.8s ease-in-out 1.5s;
 -o-transition: all 0.8s ease-in-out 1.5s;
 }
 .scarsigspclin3 {
-  width: 150px;
+  width: 50px;
   height: auto;
   position: absolute;
   margin-top: 140px;
-  margin-left: 355px;
-  transition: all 1s ease-in-out 0.7s;
--webkit-transition: all 1s ease-in-out 0.7s;
--moz-transition: all 1s ease-in-out 0.7s;
--o-transition: all 1s ease-in-out 0.7s;
+  margin-left: 395px;
+  transition: all 1s linear 0.7s;
+-webkit-transition: all 1s linear 0.7s;
+-moz-transition: all 1s linear 0.7s;
+-o-transition: all 1s linear 0.7s;
 }
 a {
   text-decoration: none;
@@ -107,7 +107,11 @@ a {
   color: #fff;
   font-size: 20px;
   text-shadow: 1px 1px 5px #fff;
-  border: 1px solid #960010;
+  border: 1px solid #960010;  
+  transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
 }
 .sf-saturn {
   width: 10px;
@@ -118,7 +122,11 @@ a {
   color: #fff;
   font-size: 20px;
   text-shadow: 1px 1px 5px #fff;
-  border: 1px solid #960010;
+  border: 1px solid #960010; 
+  transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
 }
 .sf-ufo-o {
   width: 10px;
@@ -129,7 +137,11 @@ a {
   color: #fff;
   font-size: 20px;
   text-shadow: 1px 1px 5px #fff;
-  border: 1px solid #960010;
+  border: 1px solid #960010; 
+  transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
 }
 .scarsigspccont {
   width: 150px;
@@ -145,10 +157,10 @@ a {
   color: #eee;
   text-shadow: 1px 1px #B30013;
   opacity: 0;
-  transition: all 1s ease-in-out 0.2s;
--webkit-transition: all 1s ease-in-out 0.2s;
--moz-transition: all 1s ease-in-out 0.2s;
--o-transition: all 1s ease-in-out 0.2s;
+  transition: all 1s linear 0.2s;
+-webkit-transition: all 1s linear 0.2s;
+-moz-transition: all 1s linear 0.2s;
+-o-transition: all 1s linear 0.2s;
 }
 
 .scarsigspcard:hover .scarsigspcmoon {
@@ -157,38 +169,68 @@ a {
   margin-top: -80px;
   margin-left: -180px;
       animation: none; 
-  transition: all 1s ease-in-out 0.2s;
--webkit-transition: all 1s ease-in-out 0.2s;
--moz-transition: all 1s ease-in-out 0.2s;
--o-transition: all 1s ease-in-out 0.2s;
+  transition: all 1s linear 0.2s;
+-webkit-transition: all 1s linear 0.2s;
+-moz-transition: all 1s linear 0.2s;
+-o-transition: all 1s linear 0.2s;
 }
 .scarsigspcard:hover .scarsigspctit {
   margin-left: 400px;
-  transition: all 1s ease-in-out 0.7s;
--webkit-transition: all 1s ease-in-out 0.7s;
--moz-transition: all 1s ease-in-out 0.7s;
--o-transition: all 1s ease-in-out 0.7s;
+  transition: all 1s linear 0.7s;
+-webkit-transition: all 1s linear 0.7s;
+-moz-transition: all 1s linear 0.7s;
+-o-transition: all 1s linear 0.7s;
 }
 .scarsigspcard:hover .scarsigspclin1 {
-  margin-left: 295px;
+  margin-left: 345px;
     transition: all 0.8s ease-in-out 1.5s;
 -webkit-transition: all 0.8s ease-in-out 1.5s;
 -moz-transition: all 0.8s ease-in-out 1.5s;
 -o-transition: all 0.8s ease-in-out 1.5s;
 }
+.scarsigspclin1:hover .sf-alien-o {
+  background-color: #eee;
+  color: #B30013;
+  text-shadow: 1px 1px 5px #B30013;
+  border: 1px solid #ccc; 
+  transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
+}
 .scarsigspcard:hover .scarsigspclin2 {
-  margin-left: 295px;
+  margin-left: 345px;
     transition: all 0.8s ease-in-out 2s;
 -webkit-transition: all 0.8s ease-in-out 2s;
 -moz-transition: all 0.8s ease-in-out 2s;
 -o-transition: all 0.8s ease-in-out 2s;
 }
+.scarsigspclin2:hover .sf-saturn {
+  background-color: #eee;
+  color: #B30013;
+  text-shadow: 1px 1px 5px #B30013;
+  border: 1px solid #ccc; 
+  transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
+}
 .scarsigspcard:hover .scarsigspclin3 {
-  margin-left: 295px;
+  margin-left: 345px;
     transition: all 0.8s ease-in-out 2.5s;
 -webkit-transition: all 0.8s ease-in-out 2.5s;
 -moz-transition: all 0.8s ease-in-out 2.5s;
 -o-transition: all 0.8s ease-in-out 2.5s;
+}
+.scarsigspclin3:hover .sf-ufo-o {
+  background-color: #eee;
+  color: #B30013;
+  text-shadow: 1px 1px 5px #B30013;
+  border: 1px solid #ccc; 
+  transition: all 1s linear;
+-webkit-transition: all 1s linear;
+-moz-transition: all 1s linear;
+-o-transition: all 1s linear;
 }
 .scarsigspcard:hover .scarsigspccont {
   opacity: 1;
