@@ -248,9 +248,9 @@ a {
 .scarsigbuttons img {
   width: 250px;
   height: 75px;
-  animation: marquee 35s linear infinite;
+  animation: scarmarquee 35s linear infinite;
 }
-@keyframes marquee {
+@keyframes scarmarquee {
     0%   { transform: translate(200%, 0); }
     100% { transform: translate(-1050%, 0); }
 }
