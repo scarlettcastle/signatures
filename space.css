@@ -240,19 +240,17 @@ a {
 -o-transition: all 1s ease-in-out 3s;
 }
 
-
-    .scarsigbuttons {
-    width: 400px;
-     height: 75px;
-    overflow: hidden;
+.scarsigbuttons {
+ width: 400px;
+ height: 75px;
+ overflow: hidden;
 }
 .scarsigbuttons img {
-    padding-left: 100%;
-    animation: marquee 20s linear infinite;
+  width: 250px;
+  height: 75px;
+  animation: marquee 15s linear infinite;
 }
 @keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-450%, 0); }
+    0%   { transform: translate(200%, 0); }
+    100% { transform: translate(-800%, 0); }
 }
-
-
